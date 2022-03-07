@@ -73,7 +73,7 @@
                       
                     } else {
                       out.println("<h2 id = 'errorContraseña'>Usuario o contraseña incorrectos</h2>");
-                      out.println("<a id = 'btnVolver' href='index.jsp'>Volver</button></a>");
+                      out.println("<a  id = 'btnVolver' href='index.jsp'>Volver</button></a>");
                     }
                   %>
                   <div id="fondoLogin">

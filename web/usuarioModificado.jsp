@@ -57,6 +57,7 @@
             
 
             <section  >
+                <%
                   Class.forName("com.mysql.jdbc.Driver");
                   Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/destinos", "root", "");
                   Statement s = conexion.createStatement();
@@ -73,9 +74,10 @@
                   s.execute(actualizacion);
                   conexion.close();
                 %>
+                <h2 >Usuario modificado correctamente</h2>
                 <br>
-                <a class="hacerloDeNuevo" href="usuario.jsp">Hacer otra modificación</a>
-                <a class="aceptarNuevo" href="usuario.jsp">Aceptar</a>
+                <span><a class="btn btn-success shadow p-3 mb-5" href="nuevoUsuario.jsp" role="button">Nuevo Usuario</a></span>
+                <span><a class="btn btn-danger shadow p-3 mb-5" href="usuario.jsp" role="button">Lista Usuarios</a></span>
 
             </section>
         </div><!-- Cierra el wrapper -->

@@ -72,8 +72,10 @@
                   conexion.close();
                 %>
                 <br>
-                <a class="hacerloDeNuevo" href="vuelo.jsp">Hacer otra modificación</a>
-                <a class="aceptarNuevo" href="vuelo.jsp">Aceptar</a>
+                <h2 >El vuelo se ha modificado correctamente</h2>
+                <br>
+                <span><a class="btn btn-success shadow p-3 mb-5" href="nuevoVuelo.jsp" role="button">Nuevo Usuario</a></span>
+                <span><a class="btn btn-danger shadow p-3 mb-5" href="vuelo.jsp" role="button">Lista Usuarios</a></span>
 
             </section>
         </div><!-- Cierra el wrapper -->
