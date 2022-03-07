@@ -92,7 +92,7 @@
                         
                         <td class="tdListado">
                             <form method="get" action="borradoReserva.jsp">
-                                <input type="hidden" name="reservaID" value="<%=listado.getString("codReserva")%>"/>
+                                <input type="hidden" name="codReserva" value="<%=listado.getString("codReserva")%>"/>
                                 <button type="submit" class="btn btn-danger">Cancelar</button>
                                 
                             </form>
